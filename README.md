@@ -62,3 +62,22 @@ python3 main.py
 笔记会按照目录保存在data目录下，有部分目录父节点出错的笔记会直接放到NOPATH里，只能靠大家动动手自己整理了。
 ```
 
+
+
+## 四、Markdown图片转存本地脚本
+
+> 这个脚本可以单独使用，也适用于其他markdown文件转存网络图片到本地.
+
+### 1. 补充了一个图片转存本地的脚本
+
+> img2local.py
+
+```
+# 运行时修改一下配置，路径建议修改为相对路径，绝对路径没有测试过不懂有没有bug
+paths = list_all_files('Note')
+
+# 直接运行
+python3 img2local.py
+```
+
+![imge](README.assets/imge.png)
